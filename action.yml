@@ -237,7 +237,7 @@ inputs:
   bot_icon:
     required: false
     description: 'The icon for the bot'
-    default: '<img src="https://avatars.githubusercontent.com/u/12899205?s=200&v=4" alt="Image description" width="20" height="20">'
+    default: '<img src="api.dicebear.com/7.x/bottts/png" alt="Image description" width="20" height="20">'
 runs:
   using: 'node16'
   main: 'dist/index.js'
